@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# C++ / CMake
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.a
+*.lib
+
+# IDE
+.vscode/
+.idea/
+.vs/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Secrets
+.env
+.env.*
+*.pem
